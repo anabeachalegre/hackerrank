@@ -5,10 +5,10 @@
 const somaGolsTimeB = golsTimeBDentro + golsTimeBFora;
 const somaGolsTimeA = golsTimeADentro + golsTimeAFora;
 
-if (somaGolsTimeB > somaGolsTimeA || (somaGolsTimeB = somaGolsTimeA && golsTimeBFora> golsTimeAFora))
+if (somaGolsTimeB > somaGolsTimeA || (somaGolsTimeB = somaGolsTimeA && golsTimeBFora> golsTimeAFora)) {
     console.log("TIME A ELIMINADO"); 
 } else if (somaGolsTimeA > somaGolsTimeB || (somaGolsTimeB = somaGolsTimeA && golsTimeAFora > golsTimeBFora)) {
     console.log("TIME B ELIMINADO"); 
-} else 
+} else {
     console.log("PRORROGACAO"); 
 }
